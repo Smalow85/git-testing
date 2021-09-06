@@ -3,10 +3,19 @@ package Pet;
 public class Pet {
 	private String name;
 	private String ownerName;
+	private int age;
 
 	public Pet(String name, String ownerName) {
 		this.name = name;
 		this.ownerName = ownerName;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 
 	public String getName() {
