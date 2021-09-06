@@ -10,6 +10,14 @@ public class Person {
 		this.age = age;
 	}
 
+	public String getPetName() {
+		return petName;
+	}
+
+	public void setPetName(String petName) {
+		this.petName = petName;
+	}
+
 	public String getName() {
 		return name;
 	}
